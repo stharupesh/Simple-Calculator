@@ -1,0 +1,15 @@
+h1	{
+	font-family: trebuchet ms;
+	font-size: 23px;
+	font-weight: bold;
+	color: #670794;
+	padding-bottom: 5px;
+	width: 480px;
+	border-bottom: 5px solid #670794;
+}
+
+button {
+	height: 40px;
+	width: 40px;
+	margin-bottom: 5px;
+}

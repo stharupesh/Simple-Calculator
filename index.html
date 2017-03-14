@@ -1,0 +1,38 @@
+<html>
+	<head>
+		<title>
+			Simple Calculator By Rupesh
+		</title>
+
+		<link rel="stylesheet" type="text/css" href="css/style.css"/>
+	</head>
+
+	<body>
+		<div>
+		  	<h1>Simple Calculator by Rupesh - 2014/10/19</h1>
+			
+			<form name = "form1">
+				<input type = "text" name = "scr"/>
+			</form>
+
+			<button onclick = "process('1')">1</button>
+			<button onclick = "process('2')">2</button>
+			<button onclick = "process('3')">3</button>
+			<button onclick = "clears()">C</button><br/>
+			<button onclick = "process('4')">4</button>
+			<button onclick = "process('5')">5</button>
+			<button onclick = "process('6')">6</button>
+			<button onclick = "operationStore(1)">+</button><br/>
+			<button onclick = "process('7')">7</button>
+			<button onclick = "process('8')">8</button>
+			<button onclick = "process('9')">9</button>
+			<button onclick = "operationStore(2)">-</button><br/>
+			<button onclick = "process('0')">0</button>
+			<button onclick = "operationStore(3)">*</button>
+			<button onclick = "operationStore(4)">/</button>
+			<button onclick = "result()">=</button>
+		</div>
+
+ 		<script src="js/calculator.js"></script>
+	</body>
+</html>
